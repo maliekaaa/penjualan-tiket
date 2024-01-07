@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // menghitung penghasilan penjualan tiket
+        // input
+        let VIP = 50;
+        let Eksekutif = 50;
+        let Ekonomi = 50;
+
+        let vip = untung1 * VIP;
+        let eksekutif = untung2 * Eksekutif;
+        let ekonomi = untung3 * Ekonomi;
+        
+        // proses
+        if (VIP >= 35) {
+            untung1 = 25;
+        } else if (VIP >= 20 && VIP <35) {
+            untung1 = 15;
+        } else {
+            untung1 = 5;
+        }
+
+        if (Eksekutif >= 40) {
+            untung2 = 20;
+        } else if (Eksekutif >= 20 && Eksekutif <40) {
+            untung2 = 10;
+        } else {
+            untung2 = 2;
+        }
+
+        if (Ekonomi > 0) {
+            untung3 = 7;
+        }
+
+
+        let totalsemua = vip + eksekutif + ekonomi;
+        // output
+    </script>
+</body>
+</html>
